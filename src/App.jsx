@@ -1,10 +1,20 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/Herosection";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HeroSection />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

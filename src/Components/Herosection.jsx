@@ -1,6 +1,7 @@
 import React from "react";
+import myphoto from "../assets/myphoto.jpg";
 
-function Herosection() {
+function HeroSection() {
   return (
     <div className="Herosection">
       <div>
@@ -13,10 +14,10 @@ function Herosection() {
         <h2>SCROLL FOR MORE</h2>
       </div>
       <div className="image">
-        <img src="/images/me.jpg" alt="Joram Gathundo" />
+        <img src={myphoto} alt="Joram Gathundo" />
       </div>
     </div>
   );
 }
 
-export default Herosection;
+export default HeroSection;
