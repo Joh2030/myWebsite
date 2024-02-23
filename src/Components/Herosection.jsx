@@ -1,7 +1,7 @@
 import React from "react";
 import myphoto from "../assets/myphoto.jpg";
 
-function HeroSection() {
+export default function HeroSection() {
   return (
     <div className="Herosection">
       <div>
@@ -19,5 +19,3 @@ function HeroSection() {
     </div>
   );
 }
-
-export default HeroSection;
