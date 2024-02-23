@@ -11,7 +11,7 @@ export default function SkillsCard({ logo, text, heading }) {
         <Card.Body>
           <Card.Title>{heading}</Card.Title>
           <Card.Text>{text}</Card.Text>
-          <Button variant="primary">Read More</Button>
+          {/* <Button variant="primary">Read More</Button> */}
         </Card.Body>
       </Card>
     </div>

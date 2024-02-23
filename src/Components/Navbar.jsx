@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.png";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function Navbar() {
   return (

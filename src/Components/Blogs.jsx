@@ -19,6 +19,21 @@ export default function Blogs() {
           />
         </div>
       </div>
+      <div className="Blog1">
+        <div className="flex justify-between my-4">
+          <BlogsCard
+            img={Kevin}
+            heading="Frontend Optimization Checklist"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+        dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
+        magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
+        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+        dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
+        magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
+        Provident, expedit."
+          />
+        </div>
+      </div>
     </div>
   );
 }
