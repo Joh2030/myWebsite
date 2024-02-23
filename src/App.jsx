@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { BrowserRouter, Routes, Route, NavLink } from "react";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/Herosection";
 import "./App.css";
@@ -11,7 +11,8 @@ function App() {
         <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
