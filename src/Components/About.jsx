@@ -10,8 +10,8 @@ export default function About() {
         continuous learning. Recently, I have honed my skills in crafting web
         user interfaces with a strong emphasis on responsive design,
         accessibility, performance optimization, and cutting-edge technologies.
-        <br />I recently completed an intensive 17-week boot camp, which
-        provided me with invaluable expertise in the latest
+        I recently completed an intensive 17-week boot camp, which provided me
+        with invaluable expertise in the latest
         <a href="#skills">full-stack technologies</a>. Since then, I have
         developed a deep affinity for React, Node.js, and Tailwind, which have
         been the cornerstone of my web application projects. At present, I am
@@ -19,10 +19,10 @@ export default function About() {
         positions as a full-stack web developer. I have found that immersing
         myself in projects is an invaluable resource for skill refinement, and
         it keeps me abreast of the latest technological advancements in software
-        development. <br />I am enthusiastic and open to embracing new
-        challenges and opportunities for furthering my proficiency in full-stack
-        web development. Should you have an available project or job
-        opportunity, please do not hesitate to reach out. Together, let's create
+        development. I am enthusiastic and open to embracing new challenges and
+        opportunities for furthering my proficiency in full-stack web
+        development. Should you have an available project or job opportunity,
+        please do not hesitate to reach out. Together, let's create
         groundbreaking web experiences.
       </p>
     </div>
