@@ -20,37 +20,87 @@ export default function Skills() {
     <div>
       <h1 className="text-center mt-4">Skills</h1>
       <div className="container grid grid-cols-6 gap-10 justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={HTML} heading="HTML" />
+        <SkillsCard
+          logo={HTML}
+          heading="HTML"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={CSS} heading="CSS" />
+        <SkillsCard
+          logo={CSS}
+          heading="CSS"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={JS} heading="Javascript" />
+        <SkillsCard
+          logo={JS}
+          heading="Javascript"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={ExpressJS} heading="ExpressJS" />
+        <SkillsCard
+          logo={ExpressJS}
+          heading="ExpressJS"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={MongoDB} heading="MongoDB" />
+        <SkillsCard
+          logo={MongoDB}
+          heading="MongoDB"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
         <SkillsCard logo={NodeJS} heading="NodeJS" />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={ReactJS} heading="React" />
+        <SkillsCard
+          logo={ReactJS}
+          heading="React"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={SQL} heading="SQL" />
+        <SkillsCard
+          logo={SQL}
+          heading="SQL"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={Tailwindcss} heading="Tailwindcss" />
+        <SkillsCard
+          logo={Tailwindcss}
+          heading="Tailwindcss"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={Bootstrap} heading="Bootstrap" />
+        <SkillsCard
+          logo={Bootstrap}
+          heading="Bootstrap"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
       <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={Postgresql} heading="Postgresql" />
+        <SkillsCard
+          logo={Postgresql}
+          heading="Postgresql"
+          text="Some quick example text to build on the card title and make up the
+            bulk of the card's content."
+        />
       </div>
     </div>
   );
