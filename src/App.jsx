@@ -11,8 +11,8 @@ export default function App() {
     <>
       {/* <Navbar /> */}
       <HeroSection />
-      <Skills />
       <About />
+      <Skills />
       <Blogs />
       <Contact />
     </>

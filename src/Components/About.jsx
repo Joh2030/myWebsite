@@ -1,8 +1,10 @@
 import React from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function About() {
   return (
-    <div className="aboutMe">
+    <div>
+      <h1 className="text-center mt-4">About Me</h1>
       <p>
         I am Joram Gathundo, currently residing in Berlin, Germany. I specialize
         in full-stack web development, complemented by a solid foundation in
