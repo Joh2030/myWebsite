@@ -19,7 +19,7 @@ export default function Skills() {
   return (
     <div>
       <h1 className="text-center mt-4">Skills</h1>
-      <div className="container grid grid-cols-6 gap-10 justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container ">
         <SkillsCard
           logo={HTML}
           heading="HTML"
@@ -27,7 +27,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard
           logo={CSS}
           heading="CSS"
@@ -35,7 +35,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container ">
         <SkillsCard
           logo={JS}
           heading="Javascript"
@@ -43,7 +43,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard
           logo={ExpressJS}
           heading="ExpressJS"
@@ -51,7 +51,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard
           logo={MongoDB}
           heading="MongoDB"
@@ -59,10 +59,10 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard logo={NodeJS} heading="NodeJS" />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard
           logo={ReactJS}
           heading="React"
@@ -70,7 +70,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container">
         <SkillsCard
           logo={SQL}
           heading="SQL"
@@ -78,7 +78,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container ">
         <SkillsCard
           logo={Tailwindcss}
           heading="Tailwindcss"
@@ -86,7 +86,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container ">
         <SkillsCard
           logo={Bootstrap}
           heading="Bootstrap"
@@ -94,7 +94,7 @@ export default function Skills() {
             bulk of the card's content."
         />
       </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
+      <div className="container ">
         <SkillsCard
           logo={Postgresql}
           heading="Postgresql"
