@@ -3,7 +3,7 @@ import myphoto from "../assets/myphoto.jpg";
 
 export default function HeroSection() {
   return (
-    <div className="Herosection">
+    <div className="Herosection d-flex ">
       <div>
         <h1>Hello, this is Joram Gathundo,</h1>
         <p>
@@ -14,7 +14,7 @@ export default function HeroSection() {
         <h2>SCROLL FOR MORE</h2>
       </div>
       <div className="image">
-        <img src={myphoto} alt="Joram Gathundo" />
+        <img src={myphoto} alt="Joram Gathundo" width="60%" />
       </div>
     </div>
   );
