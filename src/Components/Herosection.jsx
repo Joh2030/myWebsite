@@ -3,18 +3,26 @@ import myphoto from "../assets/myphoto.jpg";
 
 export default function HeroSection() {
   return (
-    <div className="Herosection d-flex ">
+    <div className="Herosection d-flex text-center py-5 m-5">
       <div>
-        <h1>Hello, this is Joram Gathundo,</h1>
+        <p className="container mt-5 py-5">
+          Hello, this is {""}
+          <i>
+            <b>Joram Gathundo</b>
+          </i>
+          ,
+        </p>
         <p>
           I'm a results-driven Fullstack Web Developer passionate about crafting
           seamless digital experiences. Explore my projects and let's bring your
           ideas to life!
         </p>
-        <h2>SCROLL FOR MORE</h2>
+        <p>
+          <u>SCROLL FOR MORE</u>
+        </p>
       </div>
-      <div className="image">
-        <img src={myphoto} alt="Joram Gathundo" width="60%" />
+      <div className="image py-5">
+        <img src={myphoto} alt="Joram Gathundo" width="50%" />
       </div>
     </div>
   );
