@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Testimonials from "./Components/Testimonials";
+import Projects from "./Components/Contact";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
 
@@ -15,6 +16,7 @@ export default function App() {
       <About />
       <Skills />
       <Testimonials />
+      <Projects />
       <Blogs />
       <Contact />
     </>

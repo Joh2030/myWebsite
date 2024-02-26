@@ -23,7 +23,7 @@ export default function Navbar() {
     setIsDiplayed(!isDiplayed);
   }
   return (
-    <div className="navbar d-flex align-items-center fixed-top  m-5">
+    <div className="navbar d-flex align-items-center  m-5">
       <div className="logo">
         <img src={Logo} alt="page logo" width="50" />
       </div>

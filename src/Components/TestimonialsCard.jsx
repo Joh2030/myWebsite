@@ -1,4 +1,5 @@
 import React from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Testimonials from "../Components/Testimonials";
 import Card from "react-bootstrap/Card";
@@ -6,17 +7,7 @@ import Card from "react-bootstrap/Card";
 export default function TestimonialsCard({ logo, text, heading, update }) {
   return (
     <div>
-      <div>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={logo} />
-          <Card.Body>
-            <Card.Title>{heading}</Card.Title>
-            <Card.Text>{text}</Card.Text>
-            {/* <Button variant="primary">Read More</Button> */}
-          </Card.Body>
-        </Card>
-      </div>
-      {/* <div className="card mb-3" style="max-width: 540px;">
+      <div className="card mb-3" style={{ maxWidth: "540px;" }}>
         <div className="row g-0">
           <div className="col-md-4">
             <img src={logo} className="img-fluid rounded-start" alt="..." />
@@ -33,7 +24,7 @@ export default function TestimonialsCard({ logo, text, heading, update }) {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
