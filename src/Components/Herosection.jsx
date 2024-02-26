@@ -1,4 +1,5 @@
 import React from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import myphoto from "../assets/myphoto.jpg";
 
@@ -6,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className="Herosection d-flex text-center py-5 m-5">
       <div>
-        <p className="container mt-5 py-5">
+        <p className="container-desc mt-5 py-5">
           Hello, this is {""}
           <i>
             <b>Joram Gathundo</b>

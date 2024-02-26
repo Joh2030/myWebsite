@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 import SkillsCard from "./SkillsCard";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";

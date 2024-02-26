@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Logo from "../assets/logo.png";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function Navbar() {
+  const [isDiplayed, setIsDiplayed] = useState(false);
+  const [navbarColor, setNavbarColor] = useState(false);
+
+  const changeNavBackground = () => {
+    if (window.scrollY >= 90) {
+      setNavbarColor(true);
+    } else {
+      setNavbarColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavBackground);
+
+  const menuItems = ["About", "Skills", "Blogs", "Contact"];
+
+  function handleClick() {
+    setIsDiplayed(!isDiplayed);
+  }
   return (
     <div className="navbar d-flex align-items-center fixed-top  m-5">
       <div className="logo">

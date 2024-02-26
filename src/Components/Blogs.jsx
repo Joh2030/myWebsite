@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 import BlogsCard from "./BlogsCard";
 import Kevin from "../assets/kevin.jpg";
 
