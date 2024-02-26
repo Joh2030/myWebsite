@@ -21,81 +21,37 @@ export default function Skills() {
     <div>
       <h1 className="text-center mt-4">Skills</h1>
       <div className="container ">
-        <SkillsCard
-          logo={HTML}
-          heading="HTML"
-          text="HTML, which stands for HyperText Markup Language, is the standardized language utilized for crafting and formatting documents on the global web. It acts as the foundational element for web pages, delineating the structure and content through a system of tags. "
-        />
+        <SkillsCard logo={HTML} heading="HTML" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={CSS}
-          heading="CSS"
-          text="CSS, or Cascading Style Sheets, is a vital technology in web development that complements HTML. It enables the presentation and layout of HTML elements, allowing developers to style and design web pages with various visual attributes. With CSS, designers can control aspects such as fonts, colors, spacing, and positioning, ensuring a consistent and appealing look across a website. "
-        />
+        <SkillsCard logo={CSS} heading="CSS" />
       </div>
       <div className="container ">
-        <SkillsCard
-          logo={JS}
-          heading="Javascript"
-          text="JavaScript is a versatile programming language that plays a pivotal role in web development. Initially designed for client-side scripting to enhance the interactivity of web pages, it has evolved into a multi-paradigm language that can be used on both the client and server sides. JavaScript enables the creation of dynamic, interactive content by manipulating the Document Object Model (DOM) of HTML pages."
-        />
+        <SkillsCard logo={JS} heading="Javascript" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={ExpressJS}
-          heading="ExpressJS"
-          text="Express.js is a minimalist and flexible web application framework for Node.js, designed to simplify the process of building robust and scalable web applications and APIs. It provides a set of features and tools for handling HTTP requests and responses, routing, middleware integration, and more. "
-        />
+        <SkillsCard logo={ExpressJS} heading="ExpressJS" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={MongoDB}
-          heading="MongoDB"
-          text="MongoDB is a popular NoSQL database system that provides a flexible and scalable solution for handling large volumes of data. It falls under the category of document-oriented databases, storing data in BSON (Binary JSON) format. MongoDB is known for its ability to store, manage, and retrieve unstructured or semi-structured data, making it suitable for a variety of applications."
-        />
+        <SkillsCard logo={MongoDB} heading="MongoDB" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={NodeJS}
-          heading="NodeJS"
-          text="Node.js is an open-source, server-side JavaScript runtime environment that enables the execution of JavaScript code outside a web browser. It is built on the V8 JavaScript runtime engine, developed by Google for the Chrome browser. Node.js allows developers to use JavaScript for server-side scripting, making it a versatile and powerful technology for building scalable and high-performance web applications."
-        />
+        <SkillsCard logo={NodeJS} heading="NodeJS" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={ReactJS}
-          heading="React"
-          text="React, is an open-source JavaScript library for building user interfaces (UIs) or user interface components, particularly for single-page applications where the content dynamically updates as users interact with the application. Developed and maintained by Facebook, React has gained widespread adoption due to its declarative and efficient approach to building UIs."
-        />
+        <SkillsCard logo={ReactJS} heading="React" />
       </div>
       <div className="container">
-        <SkillsCard
-          logo={SQL}
-          heading="SQL"
-          text="Structured Query Language, is a standard programming language designed for managing and manipulating relational databases. It provides a set of commands and syntax for interacting with relational database management systems (RDBMS) to perform tasks such as querying data, updating records, inserting new data, and managing database structures."
-        />
+        <SkillsCard logo={SQL} heading="SQL" />
       </div>
       <div className="container ">
-        <SkillsCard
-          logo={Tailwindcss}
-          heading="Tailwindcss"
-          text="Tailwind CSS is a utility-first CSS framework that simplifies the process of building modern and responsive web designs. It provides a set of low-level utility classes that can be applied directly to HTML elements, offering a pragmatic and efficient approach to styling. Tailwind does not impose pre-designed components or styles but rather focuses on providing building blocks for developers to construct their own designs."
-        />
+        <SkillsCard logo={Tailwindcss} heading="Tailwindcss" />
       </div>
       <div className="container ">
-        <SkillsCard
-          logo={Bootstrap}
-          heading="Bootstrap"
-          text="Bootstrap is a popular open-source front-end framework developed by Twitter. It provides a collection of pre-designed and responsive components, styles, and JavaScript plugins to streamline the process of building modern and visually appealing websites and web applications."
-        />
+        <SkillsCard logo={Bootstrap} heading="Bootstrap" />
       </div>
       <div className="container ">
-        <SkillsCard
-          logo={Postgresql}
-          heading="Postgresql"
-          text="PostgreSQL, often referred to as Postgres, is a powerful open-source relational database management system (RDBMS). It is known for its advanced features, extensibility, and compliance with SQL standards. PostgreSQL supports both SQL (Structured Query Language) and procedural languages, allowing developers to build complex and dynamic database-driven applications."
-        />
+        <SkillsCard logo={Postgresql} heading="Postgresql" />
       </div>
     </div>
   );
