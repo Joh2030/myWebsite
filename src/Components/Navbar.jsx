@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import Logo from "../assets/logo.png";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 

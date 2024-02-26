@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import myphoto from "../assets/myphoto.jpg";
 
 export default function HeroSection() {

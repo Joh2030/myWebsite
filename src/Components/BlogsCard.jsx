@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import Blogs from "./Blogs";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
