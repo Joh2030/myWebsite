@@ -1,5 +1,42 @@
 import React from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 export default function Contact() {
-  return <div></div>;
+  return (
+    <div>
+      <Form>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Your Name</Form.Label>
+          <Form.Control type="text" placeholder="John Doe" />
+          <Form.Text className="text-muted"></Form.Text>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Your email address</Form.Label>
+          <Form.Control type="email" placeholder="johndoe@example.com" />
+          <Form.Text className="text-muted"></Form.Text>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Your message</Form.Label>
+          <Form.Control type="text" placeholder="Enter text" />
+          <Form.Text className="text-muted"></Form.Text>
+        </Form.Group>
+
+        {/* <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Check me out" />
+        </Form.Group> */}
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
+    </div>
+  );
 }

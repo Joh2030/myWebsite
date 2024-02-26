@@ -4,11 +4,11 @@ import "../App.css";
 import Projects from "../Components/Projects";
 import Card from "react-bootstrap/Card";
 
-export default function ProjectsCard({ logo, heading }) {
+export default function ProjectsCard({ img, heading }) {
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={logo} />
+      <Card style={{ width: "25rem" }}>
+        <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{heading}</Card.Title>
         </Card.Body>

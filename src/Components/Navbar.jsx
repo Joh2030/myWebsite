@@ -4,24 +4,24 @@ import "../App.css";
 import Logo from "../assets/logo.png";
 
 export default function Navbar() {
-  const [isDiplayed, setIsDiplayed] = useState(false);
-  const [navbarColor, setNavbarColor] = useState(false);
+  //   const [isDiplayed, setIsDiplayed] = useState(false);
+  //   const [navbarColor, setNavbarColor] = useState(false);
 
-  const changeNavBackground = () => {
-    if (window.scrollY >= 90) {
-      setNavbarColor(true);
-    } else {
-      setNavbarColor(false);
-    }
-  };
+  //   const changeNavBackground = () => {
+  //     if (window.scrollY >= 90) {
+  //       navbarColor(true);
+  //     } else {
+  //       setNavbarColor(false);
+  //     }
+  //   };
 
-  window.addEventListener("scroll", changeNavBackground);
+  //   window.addEventListener("scroll", changeNavBackground);
 
-  const menuItems = ["About", "Skills", "Blogs", "Contact"];
+  //   const menuItems = ["About", "Skills", "Blogs", "Contact"];
 
-  function handleClick() {
-    setIsDiplayed(!isDiplayed);
-  }
+  //   function handleClick() {
+  //     setIsDiplayed(!isDiplayed);
+  //   }
   return (
     <div className="navbar d-flex align-items-center  m-5">
       <div className="logo">
