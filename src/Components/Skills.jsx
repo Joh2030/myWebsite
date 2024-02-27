@@ -22,7 +22,7 @@ export default function Skills() {
       <h1 className="text-center m-5">Skills</h1>
       <div
         className="container-skills d-flex flex-direction-row text-center mt-5 mb-5"
-        style={{ height: "20vh" }}
+        style={{ height: "30vh" }}
       >
         <div className="container ">
           <img src={HTML} heading="HTML" width={60} />

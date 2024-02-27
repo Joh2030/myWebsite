@@ -7,9 +7,10 @@ import Fred from "../assets/Fred.png";
 
 export default function Testimonials() {
   return (
-    <div>
+    <div className="container" style={{ height: "100vh" }}>
       <h1 className="text-center mt-4">Testimonials</h1>
-      <div className="container ">
+      <div className="testimonials row justify-content-around my-5"></div>
+      <div className="container m-5">
         <TestimonialsCard
           logo={Adnan}
           heading="Adnan Hanif, Fullstack web  developer"
@@ -18,7 +19,7 @@ export default function Testimonials() {
           I am sure he'll be an asset to the next organization he joins."
         />
       </div>
-      <div className="container">
+      <div className="container m-5">
         <TestimonialsCard
           logo={Fred}
           heading="Fred Edigi, Fullstack web  developer"

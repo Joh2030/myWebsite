@@ -6,9 +6,9 @@ import Kevin from "../assets/kevin.jpg";
 
 export default function Blogs() {
   return (
-    <div className="blogs ">
-      <h1 className="text-center text-3xl font-bold mt-8">Blogs</h1>
-      <div className="container-blogs d-flex justify-content-around">
+    <div className="blogs mt-5" style={{ height: "100vh" }}>
+      <h1 className="text-center text-3xl font-bold m-5">Blogs</h1>
+      <div className="container-blogs text-center d-flex justify-content-around flex-wrap mt-8">
         <div className="Blog1">
           <div className="flex justify-between my-4">
             <BlogsCard

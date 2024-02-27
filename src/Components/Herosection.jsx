@@ -9,7 +9,7 @@ export default function HeroSection() {
       className="Herosection bg-black d-flex flex-row align-items-center text-center"
       style={{ height: "100vh" }}
     >
-      <div className="container-desc p-4 fw-bold fs-4">
+      <div className="container-desc p-4 fs-4">
         <p>
           Hello, this is {""}
           <i>

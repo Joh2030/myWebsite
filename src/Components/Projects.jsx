@@ -6,15 +6,16 @@ import Kevin from "../assets/kevin.jpg";
 
 export default function Projects() {
   return (
-    <div>
-      <h1 className="text-center text-3xl font-bold mt-8">Projects</h1>
-      <div className="Project1">
-        <div className="flex justify-between my-4">
+    <div className="container" style={{ height: "60vh" }}>
+      <h1 className="text-center text-3xl font-bold my-5">Projects</h1>
+      <div className="container-projects d-flex justify-content-around mt-8">
+        <div className="container justify-betweenn my-4">
           <ProjectsCard img={Kevin} heading="Frontend Optimization Checklist" />
         </div>
-      </div>
-      <div className="Project1">
-        <div className="flex justify-between my-4">
+        <div className="container my-4">
+          <ProjectsCard img={Kevin} heading="Frontend Optimization Checklist" />
+        </div>
+        <div className="container my-4">
           <ProjectsCard img={Kevin} heading="Frontend Optimization Checklist" />
         </div>
       </div>
