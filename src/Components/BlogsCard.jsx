@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 export default function BlogsCard({ img, text, heading }) {
   return (
     <div>
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{heading}</Card.Title>

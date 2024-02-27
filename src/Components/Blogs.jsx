@@ -18,7 +18,7 @@ export default function Blogs() {
           <div className="flex justify-between my-4">
             <BlogsCard
               img={Hooks}
-              heading="Frontend Optimization Checklist"
+              heading="React Hooks Cheatsheet"
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
@@ -31,6 +31,18 @@ export default function Blogs() {
             <BlogsCard
               img={Chatgpt}
               heading="How to use ChatGPT in daily Life"
+              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+        dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
+        magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
+        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+        <div className="Blog1">
+          <div className="justify-between my-4">
+            <BlogsCard
+              img={Kevin}
+              heading="Frontend Optimization Checklist"
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
