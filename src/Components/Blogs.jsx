@@ -29,7 +29,7 @@ export default function Blogs() {
         <div className="Blog1">
           <div className="justify-between my-4">
             <BlogsCard
-              img={Hooks}
+              img={Chatgpt}
               heading="How to use ChatGPT in daily Life"
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
@@ -41,7 +41,7 @@ export default function Blogs() {
         <div className="Blog1">
           <div className="justify-between my-4">
             <BlogsCard
-              img={Chatgpt}
+              img={Hooks}
               heading="React Hooks Cheat Sheet"
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
