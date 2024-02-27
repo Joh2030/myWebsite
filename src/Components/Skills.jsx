@@ -18,11 +18,13 @@ import Postgresql from "../assets/database.png";
 
 export default function Skills() {
   return (
-    <div>
-      <h1 className="text-center m-5">Skills</h1>
+    <div className="container-skills p-5">
+      <h1 className="text-center m-5" style={{ fontFamily: "Roboto" }}>
+        Skills
+      </h1>
       <div
         className="container-skills d-flex flex-direction-row text-center mt-5 mb-5"
-        style={{ height: "30vh" }}
+        style={{ fontFamily: "Roboto", height: "30vh" }}
       >
         <div className="container ">
           <img src={HTML} heading="HTML" width={60} />

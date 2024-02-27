@@ -23,7 +23,15 @@ export default function Navbar() {
   //     setIsDiplayed(!isDiplayed);
   //   }
   return (
-    <div className="navbar bg-black p-4 d-flex align-items-center fs-4">
+    <div
+      className="navbar p-4 d-flex fs-4 fixed-top text-lights"
+      style={{
+        background: "#F0EDCF",
+        fontFamily: "Roboto",
+        zIndex: 1000,
+        width: "100%",
+      }}
+    >
       <div className="logo">
         <img src={Logo} alt="page logo" width="50" />
       </div>

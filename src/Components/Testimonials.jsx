@@ -7,9 +7,12 @@ import Fred from "../assets/Fred.png";
 
 export default function Testimonials() {
   return (
-    <div className="container" style={{ height: "100vh" }}>
+    <div
+      className="container"
+      style={{ fontFamily: "Roboto", height: "100vh" }}
+    >
       <h1 className="text-center mt-4">Testimonials</h1>
-      <div className="testimonials row justify-content-around my-5"></div>
+      <div className="testimonialsd-flex justify-content-around my-5"></div>
       <div className="container m-5">
         <TestimonialsCard
           logo={Adnan}

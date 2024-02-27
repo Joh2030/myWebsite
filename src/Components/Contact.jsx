@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       <Form className="contact m-5">
         <h1>Contact Us</h1>
-        <Card style={{ width: "50%" }}>
+        <Card style={{ fontFamily: "Roboto", width: "50%" }}>
           <Card.Body>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Your Name</Form.Label>

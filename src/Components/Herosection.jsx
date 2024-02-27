@@ -9,26 +9,26 @@ import Linkedin from "../assets/linkedin.png";
 export default function HeroSection() {
   return (
     <div
-      className="Herosection bg-white d-flex flex-row align-items-center"
-      style={{ height: "100vh" }}
+      className="Herosection d-flex flex-row align-items-center"
+      style={{ fontFamily: "Roboto", background: "#F0EDCF", height: "100vh" }}
     >
       <div className="container-desc text-center m-5 fs-5">
         <p>
-          Hello, this is {""}
+          Hello, I am {""}
           <i>
             <b>Joram Gathundo</b>
           </i>
           ,
         </p>
         <p>
-          I'm a results-driven Fullstack Web Developer passionate about crafting
+          A results-driven Fullstack Web Developer, passionate about crafting
           seamless digital experiences. Explore my projects and let's bring your
           ideas to life!
         </p>
         <div className="buttons">
           <Button
             className="btn btn-primary rounded-right"
-            variant="primary m-2"
+            variant="primary m-4"
             style={{
               borderRadius: "1rem",
               width: "150px",
@@ -51,8 +51,10 @@ export default function HeroSection() {
             Contact Info
           </Button>
         </div>
-        <div className="connect m-3">
-          <img
+        <div className="connect m-4">
+          <a
+            href="https://www.linkedin.com/in/joram-kiarie/"
+            img
             className="me-3"
             src={Linkedin}
             alt="linkedin"
@@ -63,7 +65,9 @@ export default function HeroSection() {
               filter: "grayscale(50%)",
             }}
           />
-          <img
+          <a
+            href="https://github.com/Joh2030"
+            img
             src={Github}
             alt="github"
             style={{
@@ -75,7 +79,11 @@ export default function HeroSection() {
           />
         </div>
         <p>
-          <u>SCROLL FOR MORE</u>
+          <u>
+            <i>
+              Scroll for <b>MORE</b>
+            </i>
+          </u>
         </p>
       </div>
       <div className="image">
