@@ -30,7 +30,6 @@ export default function About() {
           create groundbreaking web experiences.
         </p>
       </div>
-      <hr />
     </div>
   );
 }

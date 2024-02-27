@@ -24,7 +24,7 @@ export default function Navbar() {
   //   }
   return (
     <div
-      className="navbar p-4 d-flex fs-4 fixed-top text-lights"
+      className="navbar p-4 d-flex fs-3 fixed-top text-lights"
       style={{
         background: "#F0EDCF",
         fontFamily: "Roboto",
