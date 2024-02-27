@@ -13,19 +13,19 @@ export default function Contact() {
         <Card style={{ fontFamily: "Roboto", width: "50%" }}>
           <Card.Body>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Your Name</Form.Label>
+              <Form.Label> Name</Form.Label>
               <Form.Control type="text" placeholder="John Doe" />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Your email address</Form.Label>
+              <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="johndoe@example.com" />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Your message</Form.Label>
+              <Form.Label>Message</Form.Label>
               <Form.Control type="text" placeholder="Enter text" />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
