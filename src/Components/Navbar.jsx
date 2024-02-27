@@ -23,7 +23,7 @@ export default function Navbar() {
   //     setIsDiplayed(!isDiplayed);
   //   }
   return (
-    <div className="navbar bg-black p-5 d-flex align-items-center">
+    <div className="navbar bg-black p-4 d-flex align-items-center">
       <div className="logo">
         <img src={Logo} alt="page logo" width="50" />
       </div>

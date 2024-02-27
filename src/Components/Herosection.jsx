@@ -9,8 +9,8 @@ export default function HeroSection() {
       className="Herosection bg-black d-flex flex-row align-items-center text-center"
       style={{ height: "100vh" }}
     >
-      <div>
-        <p className="container-desc ">
+      <div className="container-desc p-4 fw-bold fs-4">
+        <p>
           Hello, this is {""}
           <i>
             <b>Joram Gathundo</b>
@@ -27,7 +27,7 @@ export default function HeroSection() {
         </p>
       </div>
       <div className="image">
-        <img src={myphoto} alt="Joram Gathundo" width="50%" />
+        <img src={myphoto} alt="Joram Gathundo" width="80%" />
       </div>
     </div>
   );

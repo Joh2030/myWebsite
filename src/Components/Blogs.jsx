@@ -6,33 +6,44 @@ import Kevin from "../assets/kevin.jpg";
 
 export default function Blogs() {
   return (
-    <div className="blogs">
+    <div className="blogs ">
       <h1 className="text-center text-3xl font-bold mt-8">Blogs</h1>
-      <div className="Blog1">
-        <div className="flex justify-between my-4">
-          <BlogsCard
-            img={Kevin}
-            heading="Frontend Optimization Checklist"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+      <div className="container-blogs d-flex justify-content-around">
+        <div className="Blog1">
+          <div className="flex justify-between my-4">
+            <BlogsCard
+              img={Kevin}
+              heading="Frontend Optimization Checklist"
+              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
         Provident, expedit."
-          />
+            />
+          </div>
         </div>
-      </div>
-      <div className="Blog1">
-        <div className="flex justify-between my-4">
-          <BlogsCard
-            img={Kevin}
-            heading="Frontend Optimization Checklist"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+        <div className="Blog1">
+          <div className="justify-between my-4">
+            <BlogsCard
+              img={Kevin}
+              heading="Frontend Optimization Checklist"
+              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
-        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+        <div className="Blog1">
+          <div className="justify-between my-4">
+            <BlogsCard
+              img={Kevin}
+              heading="Frontend Optimization Checklist"
+              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
-        Provident, expedit."
-          />
+        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            />
+          </div>
         </div>
       </div>
     </div>

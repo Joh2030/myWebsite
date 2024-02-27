@@ -19,39 +19,44 @@ import Postgresql from "../assets/database.png";
 export default function Skills() {
   return (
     <div>
-      <h1 className="text-center mt-4">Skills</h1>
-      <div className="container ">
-        <SkillsCard logo={HTML} heading="HTML" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={CSS} heading="CSS" />
-      </div>
-      <div className="container ">
-        <SkillsCard logo={JS} heading="Javascript" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={ExpressJS} heading="ExpressJS" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={MongoDB} heading="MongoDB" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={NodeJS} heading="NodeJS" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={ReactJS} heading="React" />
-      </div>
-      <div className="container">
-        <SkillsCard logo={SQL} heading="SQL" />
-      </div>
-      <div className="container ">
-        <SkillsCard logo={Tailwindcss} heading="Tailwindcss" />
-      </div>
-      <div className="container ">
-        <SkillsCard logo={Bootstrap} heading="Bootstrap" />
-      </div>
-      <div className="container ">
-        <SkillsCard logo={Postgresql} heading="Postgresql" />
+      <h1 className="text-center m-5">Skills</h1>
+      <div
+        className="container-skills d-flex flex-direction-row text-center mt-5 mb-5"
+        style={{ height: "20vh" }}
+      >
+        <div className="container ">
+          <img src={HTML} heading="HTML" width={60} />
+        </div>
+        <div className="container">
+          <img src={CSS} heading="CSS" width={60} />
+        </div>
+        <div className="container ">
+          <img src={JS} heading="Javascript" width={60} />
+        </div>
+        <div className="container">
+          <img src={ExpressJS} heading="ExpressJS" width={60} />
+        </div>
+        <div className="container">
+          <img src={MongoDB} heading="MongoDB" width={60} />
+        </div>
+        <div className="container">
+          <img src={NodeJS} heading="NodeJS" width={60} />
+        </div>
+        <div className="container">
+          <img src={ReactJS} heading="React" width={60} />
+        </div>
+        <div className="container">
+          <img src={SQL} heading="SQL" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Tailwindcss} heading="Tailwindcss" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Bootstrap} heading="Bootstrap" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Postgresql} heading="Postgresql" width={60} />
+        </div>
       </div>
     </div>
   );
