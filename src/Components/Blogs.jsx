@@ -10,7 +10,7 @@ export default function Blogs() {
   return (
     <div
       className="blogs p-5"
-      style={{ background: "#F0EDCF", fontFamily: "Roboto", height: "100vh" }}
+      style={{ background: "#F0EDCF", fontFamily: "Roboto", height: "100%" }}
     >
       <h1 className="text-center text-3xl font-bold m-5">Blogs</h1>
       <div className="container-blogs text-center d-flex justify-content-around mt-8">

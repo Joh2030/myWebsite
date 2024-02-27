@@ -12,7 +12,7 @@ export default function Testimonials() {
       style={{ fontFamily: "Roboto", height: "100vh" }}
     >
       <h1 className="text-center mt-4">Testimonials</h1>
-      <div className="testimonialsd-flex justify-content-around my-5"></div>
+      <div className="testimonialsd-flex justify-content-around m-5"></div>
       <div className="container m-5">
         <TestimonialsCard
           logo={Adnan}
