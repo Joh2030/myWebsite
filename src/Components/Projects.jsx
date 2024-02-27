@@ -18,12 +18,12 @@ export default function Projects() {
         <a href="https://pholio.onrender.com" className="container my-4">
           <ProjectsCard img={Pholio} heading="Photo Album Application" />
         </a>
-        <a
+        {/* <a
           href="https://joramportifolio.netlify.app/"
           className="container my-4"
         >
           <ProjectsCard img={Website} heading="My Portifolio" />
-        </a>
+        </a> */}
         <a
           href="https://cookituprecipes.netlify.app/"
           className="container my-4"
