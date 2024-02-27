@@ -7,12 +7,13 @@ import HeroSection from "./Components/Herosection";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
+import Herosection from "./Components/Herosection";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <Herosection />
       <About />
       <Skills />
       <Testimonials />
