@@ -6,10 +6,10 @@ import myphoto from "../assets/myphoto.jpg";
 import Github from "../assets/github.png";
 import Linkedin from "../assets/linkedin.png";
 
-export default function HeroSection() {
+export default function Herosection() {
   return (
     <div
-      className="Herosection d-flex flex-row align-items-center"
+      className="HeroSection d-flex flex-row align-items-center"
       style={{ fontFamily: "Roboto", background: "#F0EDCF", height: "100vh" }}
     >
       <div className="container-desc text-center m-5 fs-5">
