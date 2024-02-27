@@ -1,9 +1,9 @@
 import "./App.css";
-import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Testimonials from "./Components/Testimonials";
+import HeroSection from "./Components/HeroSection";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
