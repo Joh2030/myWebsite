@@ -7,10 +7,7 @@ import Fred from "../assets/Fred.png";
 
 export default function Testimonials() {
   return (
-    <div
-      className="container"
-      style={{ fontFamily: "Roboto", height: "100vh" }}
-    >
+    <div className="container" style={{ fontFamily: "Roboto", height: "100%" }}>
       <h1 className="text-center mt-4">Testimonials</h1>
       <div className="testimonialsd-flex justify-content-around m-5"></div>
       <div className="container m-5">
