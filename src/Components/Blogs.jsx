@@ -13,7 +13,7 @@ export default function Blogs() {
       style={{ background: "#F0EDCF", fontFamily: "Roboto", height: "100vh" }}
     >
       <h1 className="text-center text-3xl font-bold m-5">Blogs</h1>
-      <div className="container-blogs text-center d-flex justify-content-around flex-wrap mt-8">
+      <div className="container-blogs text-center d-flex justify-content-around mt-8">
         <div className="Blog1">
           <div className="flex justify-between my-4">
             <BlogsCard

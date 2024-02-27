@@ -7,7 +7,7 @@ import Pholio from "../assets/pholio1.png";
 export default function Projects() {
   return (
     <div
-      className="container"
+      className="container.projects p-5"
       style={{ fontFamily: "Roboto", height: "100vh" }}
     >
       <h1 className="text-center text-3xl font-bold my-5">Projects</h1>
