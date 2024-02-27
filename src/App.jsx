@@ -15,7 +15,6 @@ export default function App() {
       <Herosection />
       <About />
       <Skills />
-      <Testimonials />
       <Projects />
       <Blogs />
       <Contact />
