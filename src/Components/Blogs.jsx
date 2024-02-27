@@ -38,18 +38,6 @@ export default function Blogs() {
             />
           </div>
         </div>
-        <div className="Blog1">
-          <div className="justify-between my-4">
-            <BlogsCard
-              img={Hooks}
-              heading="React Hooks Cheat Sheet"
-              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
-        dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
-        magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
-        Provident, expedit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            />
-          </div>
-        </div>
       </div>
     </div>
   );
