@@ -4,8 +4,8 @@ import "../App.css";
 
 export default function About() {
   return (
-    <div>
-      <h1 className="text-center mt-5">About Me</h1>
+    <div className="container" style={{ height: "50vh" }}>
+      <h1 className="text-center m-5 p-5 ">About Me</h1>
       <div className="container text-center mt-5 mb-5">
         <p>
           I am Joram Gathundo, currently residing in Berlin, Germany. I

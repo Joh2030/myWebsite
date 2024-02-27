@@ -6,7 +6,7 @@ import Kevin from "../assets/kevin.jpg";
 
 export default function Blogs() {
   return (
-    <div>
+    <div className="blogs">
       <h1 className="text-center text-3xl font-bold mt-8">Blogs</h1>
       <div className="Blog1">
         <div className="flex justify-between my-4">

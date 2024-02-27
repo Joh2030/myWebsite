@@ -5,9 +5,12 @@ import myphoto from "../assets/myphoto.jpg";
 
 export default function HeroSection() {
   return (
-    <div className="Herosection d-flex text-center py-5 m-5">
+    <div
+      className="Herosection bg-black d-flex flex-row align-items-center text-center"
+      style={{ height: "100vh" }}
+    >
       <div>
-        <p className="container-desc mt-5 py-5">
+        <p className="container-desc ">
           Hello, this is {""}
           <i>
             <b>Joram Gathundo</b>
@@ -23,7 +26,7 @@ export default function HeroSection() {
           <u>SCROLL FOR MORE</u>
         </p>
       </div>
-      <div className="image py-5">
+      <div className="image">
         <img src={myphoto} alt="Joram Gathundo" width="50%" />
       </div>
     </div>
