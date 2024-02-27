@@ -2,7 +2,6 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
-import Testimonials from "./Components/Testimonials";
 import Herosection from "./Components/Herosection";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs";
