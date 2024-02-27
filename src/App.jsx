@@ -1,5 +1,5 @@
 import "./App.css";
-import HeroSection from "../src/Components/HeroSection";
+import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
