@@ -1,9 +1,26 @@
-#root {
+  * {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+ }
+
+ 
+
+ /* .navbar-container {
+  width: 100%;
+  height: 50px; 
+  background-color: rgb(234, 223, 223);
+
+
+ } */
+
+ 
+ /* #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
-}
+} 
 
 .logo {
   height: 6em;
@@ -39,4 +56,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

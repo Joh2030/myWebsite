@@ -1,18 +1,73 @@
-import React from "react";
+import React, { useState } from "react";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 import Logo from "../assets/logo.png";
 
 export default function Navbar() {
+  //   const [isDiplayed, setIsDiplayed] = useState(false);
+  //   const [navbarColor, setNavbarColor] = useState(false);
+
+  //   const changeNavBackground = () => {
+  //     if (window.scrollY >= 90) {
+  //       navbarColor(true);
+  //     } else {
+  //       setNavbarColor(false);
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", changeNavBackground);
+
+  //   const menuItems = ["About", "Skills", "Blogs", "Contact"];
+
+  //   function handleClick() {
+  //     setIsDiplayed(!isDiplayed);
+  //   }
   return (
-    <div className="navbar">
+    <div
+      className="navbar p-4 d-flex fs-4 fixed-top text-lights"
+      style={{
+        background: "#F0EDCF",
+        fontFamily: "Roboto",
+        zIndex: 1000,
+        width: "100%",
+      }}
+    >
       <div className="logo">
-        <img src={Logo} alt="page logo" />
+        <img src={Logo} alt="page logo" width="50" />
       </div>
-      <div className="links">
-        <div>About</div>
-        <div>Skills</div>
-        <div>Blogs</div>
-        <div>Contact</div>
-      </div>
+      <ul className="nav">
+        <li className="nav-item">
+          <a className="nav-link" href="about">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="skills">
+            Skills
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="blogs">
+            Blogs
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+      {/* <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button> */}
     </div>
   );
 }

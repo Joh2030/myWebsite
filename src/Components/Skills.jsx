@@ -1,5 +1,6 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 import SkillsCard from "./SkillsCard";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -17,90 +18,47 @@ import Postgresql from "../assets/database.png";
 
 export default function Skills() {
   return (
-    <div>
-      <h1 className="text-center mt-4">Skills</h1>
-      <div className="container grid grid-cols-6 gap-10 justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={HTML}
-          heading="HTML"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={CSS}
-          heading="CSS"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={JS}
-          heading="Javascript"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={ExpressJS}
-          heading="ExpressJS"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={MongoDB}
-          heading="MongoDB"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard logo={NodeJS} heading="NodeJS" />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={ReactJS}
-          heading="React"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={SQL}
-          heading="SQL"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={Tailwindcss}
-          heading="Tailwindcss"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={Bootstrap}
-          heading="Bootstrap"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
-      </div>
-      <div className="container grid grid-cols-6 gap-10   justify-items-center md:px-8 mx-auto mt-20 mb-20 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 ">
-        <SkillsCard
-          logo={Postgresql}
-          heading="Postgresql"
-          text="Some quick example text to build on the card title and make up the
-            bulk of the card's content."
-        />
+    <div className="container-skills p-5">
+      <h1 className="text-center m-5" style={{ fontFamily: "Roboto" }}>
+        Skills
+      </h1>
+      <div
+        className="container-skills d-flex flex-direction-row text-center mt-5 mb-5"
+        style={{ fontFamily: "Roboto", height: "30vh" }}
+      >
+        <div className="container ">
+          <img src={HTML} heading="HTML" width={60} />
+        </div>
+        <div className="container">
+          <img src={CSS} heading="CSS" width={60} />
+        </div>
+        <div className="container ">
+          <img src={JS} heading="Javascript" width={60} />
+        </div>
+        <div className="container">
+          <img src={ExpressJS} heading="ExpressJS" width={60} />
+        </div>
+        <div className="container">
+          <img src={MongoDB} heading="MongoDB" width={60} />
+        </div>
+        <div className="container">
+          <img src={NodeJS} heading="NodeJS" width={60} />
+        </div>
+        <div className="container">
+          <img src={ReactJS} heading="React" width={60} />
+        </div>
+        <div className="container">
+          <img src={SQL} heading="SQL" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Tailwindcss} heading="Tailwindcss" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Bootstrap} heading="Bootstrap" width={60} />
+        </div>
+        <div className="container ">
+          <img src={Postgresql} heading="Postgresql" width={60} />
+        </div>
       </div>
     </div>
   );
