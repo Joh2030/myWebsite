@@ -10,7 +10,7 @@ import Recipes from "../assets/recipes.png";
 export default function Projects() {
   return (
     <div
-      className="container p-5 flex-wrap"
+      className="container p-5"
       style={{ fontFamily: "Roboto", height: "100%" }}
     >
       <h1 className="text-center text-3xl font-bold my-5">Projects</h1>
@@ -18,12 +18,12 @@ export default function Projects() {
         <a href="https://pholio.onrender.com" className="container my-4">
           <ProjectsCard img={Pholio} heading="Photo Album Application" />
         </a>
-        {/* <a
+        <a
           href="https://joramportifolio.netlify.app/"
           className="container my-4"
         >
           <ProjectsCard img={Website} heading="My Portifolio" />
-        </a> */}
+        </a>
         <a
           href="https://cookituprecipes.netlify.app/"
           className="container my-4"
