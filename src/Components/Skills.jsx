@@ -1,9 +1,6 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-import SkillsCard from "./SkillsCard";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import HTML from "../assets/html5.png";
 import CSS from "../assets/css3.png";
 import JS from "../assets/js.png";
@@ -23,7 +20,7 @@ export default function Skills() {
         Skills
       </h1>
       <div
-        className="container-skills d-flex flex-direction-row text-center mt-5 mb-5"
+        className="container d-flex flex-direction-row text-center mt-5 mb-5"
         style={{ fontFamily: "Roboto", height: "100%" }}
       >
         <div className="container ">

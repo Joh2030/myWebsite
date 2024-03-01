@@ -4,27 +4,27 @@ import "../App.css";
 import Logo from "../assets/logo.png";
 
 export default function Navbar() {
-  //   const [isDiplayed, setIsDiplayed] = useState(false);
-  //   const [navbarColor, setNavbarColor] = useState(false);
+  // const [isDiplayed, setIsDiplayed] = useState(false);
+  // const [navbarColor, setNavbarColor] = useState(false);
 
-  //   const changeNavBackground = () => {
-  //     if (window.scrollY >= 90) {
-  //       navbarColor(true);
-  //     } else {
-  //       setNavbarColor(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", changeNavBackground);
-
-  //   const menuItems = ["About", "Skills", "Blogs", "Contact"];
-
-  //   function handleClick() {
-  //     setIsDiplayed(!isDiplayed);
+  // const changeNavBackground = () => {
+  //   if (window.scrollY >= 90) {
+  //     navbarColor(true);
+  //   } else {
+  //     setNavbarColor(false);
   //   }
+  // };
+
+  // window.addEventListener("scroll", changeNavBackground);
+
+  // const menuItems = ["About", "Skills", "Blogs", "Contact"];
+
+  // function handleClick() {
+  //   setIsDiplayed(!isDiplayed);
+  // }
   return (
     <div
-      className="navbar p-4 d-flex fixed-top text-lights"
+      className="navbar d-flex fixed-top text-lights p-4 "
       style={{
         background: "#F0EDCF",
         fontFamily: "Roboto",

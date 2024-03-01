@@ -10,12 +10,9 @@ import Recipes from "../assets/recipes.png";
 export default function Projects() {
   return (
     <div>
-      <div
-        className="blogs pt-4"
-        style={{ background: "#F0EDCF", fontFamily: "Roboto" }}
-      >
-        <h1 className="text-center text-3xl font-bold m-5">Blogs</h1>
-        <div className="container-fluid justify-content-center">
+      <div className="projects pt-4" style={{ fontFamily: "Roboto" }}>
+        <h1 className="text-center text-3xl font-bold m-5">Projects</h1>
+        <div className="container justify-content-center">
           <div className="container d-flex justify-content-between flex-wrap">
             <div className="project1 mb-5">
               <a href="https://meetdog.netlify.app/" className="container">

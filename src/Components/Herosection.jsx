@@ -9,10 +9,10 @@ import Linkedin from "../assets/linkedin.png";
 export default function Herosection() {
   return (
     <div
-      className="HeroSection d-flex flex-row align-items-center"
+      className="Herosection d-flex flex-row align-items-center"
       style={{ fontFamily: "Roboto", background: "#F0EDCF", height: "100vh" }}
     >
-      <div className="container-desc text-center m-5 fs-5">
+      <div className="container text-center m-5">
         <p>
           Hello, I am {""}
           <i>
