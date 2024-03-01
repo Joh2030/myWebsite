@@ -4,9 +4,9 @@ import "../App.css";
 
 export default function About() {
   return (
-    <div className="container" style={{ fontFamily: "Roboto", height: "70vh" }}>
+    <div className="container" style={{ fontFamily: "Roboto" }}>
       <h1 className="text-center p-5 ">About Me</h1>
-      <div className="container text-center fs-4 mt-5 mb-5">
+      <div className="container text-center fs-4 ">
         <p>
           I am Joram Gathundo, currently residing in Berlin, Germany. I
           specialize in full-stack web development, complemented by a solid

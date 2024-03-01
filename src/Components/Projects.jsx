@@ -9,34 +9,64 @@ import Recipes from "../assets/recipes.png";
 
 export default function Projects() {
   return (
-    <div
-      className="container p-5 flex-wrap"
-      style={{ fontFamily: "Roboto", height: "100%" }}
-    >
-      <h1 className="text-center text-3xl font-bold my-5">Projects</h1>
-      <div className="container-projects d-flex justify-content-around mt-8">
-        <a href="https://pholio.onrender.com" className="container my-4">
-          <ProjectsCard img={Pholio} heading="Photo Album Application" />
-        </a>
-        {/* <a
-          href="https://joramportifolio.netlify.app/"
-          className="container my-4"
-        >
-          <ProjectsCard img={Website} heading="My Portifolio" />
-        </a> */}
-        <a
-          href="https://cookituprecipes.netlify.app/"
-          className="container my-4"
-        >
-          <ProjectsCard
-            img={Recipes}
-            heading="Easy Recipes You Can Prepare at Home"
-          />
-        </a>
-        <a href="https://meetdog.netlify.app/" className="container my-4">
-          <ProjectsCard img={Tindog} heading="Tindog: Meet new Dogs nearby" />
-        </a>
+    <div>
+      <div className="projects pt-4" style={{ fontFamily: "Roboto" }}>
+        <h1 className="text-center text-3xl font-bold m-5">Projects</h1>
+        <div className="container justify-content-center">
+          <div className="container d-flex justify-content-between flex-wrap">
+            <div className="project1 mb-5">
+              <a href="https://meetdog.netlify.app/" className="container">
+                <ProjectsCard
+                  img={Tindog}
+                  heading="Tindog: Meet new Dogs nearby"
+                />
+              </a>
+            </div>
+            <div className="project1 mb-5">
+              <a href="https://pholio.onrender.com" className="container">
+                <ProjectsCard img={Pholio} heading="Photo Album Application" />
+              </a>
+            </div>
+            <div className="project1 mb-5">
+              <a
+                href="https://cookituprecipes.netlify.app/"
+                className="container"
+              >
+                <ProjectsCard
+                  img={Recipes}
+                  heading="Easy Recipes You Can Prepare at Home"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* <h1 className="text-center text-3xl font-bold my-5">Projects</h1>
+      <div className="row">
+        <div className="col-md-6 col-sm-12">
+          <div className="container d-flex  justify-content-between m-5">
+            <a href="https://pholio.onrender.com" className="container">
+              <ProjectsCard img={Pholio} heading="Photo Album Application" />
+            </a>
+            <a href="https://meetdog.netlify.app/" className="container">
+              <ProjectsCard
+                img={Tindog}
+                heading="Tindog: Meet new Dogs nearby"
+              />
+            </a>
+            <a
+              href="https://cookituprecipes.netlify.app/"
+              className="container"
+            >
+              <ProjectsCard
+                img={Recipes}
+                heading="Easy Recipes You Can Prepare at Home"
+              />
+            </a>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }
