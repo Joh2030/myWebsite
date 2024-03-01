@@ -13,7 +13,7 @@ export default function Blogs() {
       style={{ background: "#F0EDCF", fontFamily: "Roboto" }}
     >
       <h1 className="text-center text-3xl font-bold m-5">Blogs</h1>
-      <div className="container-fluid">
+      <div className="container-fluid justify-content-center">
         <div className="container d-flex justify-content-between flex-wrap">
           <div className="Blog1 mb-5">
             <BlogsCard
@@ -33,6 +33,16 @@ export default function Blogs() {
         dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
         magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
         Provident, expedit. "
+            />
+          </div>
+          <div className="Blog1 mb-5">
+            <BlogsCard
+              img={Hooks}
+              heading="Frontend Optimization Checklist"
+              text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione
+            dolore in dolor quam veniam tenetur aperiam, deserunt similique sequi,
+            magnam ipsa, laborum consequatur itaque asperiores vitae dignissimos.
+            Provident, expedit."
             />
           </div>
           <div className="Blog1 mb-5">
